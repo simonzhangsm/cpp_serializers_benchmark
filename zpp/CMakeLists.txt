@@ -3,8 +3,7 @@ set(zpp_INCLUDE ${zpp_PREFIX}/src/zpp_dep)
 ExternalProject_Add(
         zpp_dep
         PREFIX ${zpp_PREFIX}
-        URL "https://github.com/eyalz800/serializer/archive/v0.1.tar.gz"
-        URL_MD5 "96f1db7d8f80917d730cbb1a8d7f2fbe"
+        URL "https://github.com/eyalz800/serializer/archive/v0.3.tar.gz"
         CONFIGURE_COMMAND ""
         BUILD_COMMAND ""
         INSTALL_COMMAND ""
